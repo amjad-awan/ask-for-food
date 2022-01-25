@@ -85,3 +85,39 @@ var swiper = new Swiper(".home-slider", {
          },
        }
       });
+
+
+function loader()
+{
+     document.querySelector(".loader-container").classList.add("fade-out");
+}
+
+
+function fadeout()
+     {
+       setInterval(loader, 3000);
+
+     }
+
+      window.onload=fadeout;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
