@@ -167,7 +167,9 @@ section
 {
     padding: 2rem 5%;
 }
-
+.home{
+    overflow:hidden
+}
 section:nth-child(even)
 {
     background: #eee;
