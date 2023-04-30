@@ -169,7 +169,6 @@ section
 }
 .home{
     overflow:hidden;
-    border:2px solid red
 }
 section:nth-child(even)
 {
